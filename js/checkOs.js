@@ -48,7 +48,7 @@ if (typeOs()==='linux'){
         // String to show as cursor
         cursor: ''
     };
-    var senentces =['search here mate :D'];
+    var senentces =['explore your world:D'];
 
     spHolder(senentces,options);
 
