@@ -35,9 +35,9 @@ h: 搜索首页
 */
 let doAction = function (p, n, s) {
   if (isEmpty(sInfor.value)) {
-    window.open(s)
+    window.open(s,"_self")
   } else {
-    window.open(p + sInfor.value + n)
+    window.open(p + sInfor.value + n,"_self")
   }
 
 }
@@ -52,15 +52,12 @@ document.onkeydown = function (e) { // 回车提交表单
   // 兼容FF和IE和Opera
   var theEvent = window.event || e
   var code = theEvent.keyCode || theEvent.which || theEvent.charCode
-  if (code == 13) {
+  if (code === 13) {
     p = 'https://www.google.com/search?q='
-
     n = '&gws_rd=cr&nfpr=1&newwindow=1&num=30'
-
     s = 'https://www.google.com/webhp?gws_rd=cr&nfpr=1&newwindow=1&num=30'
     doAction(p, n, s)
   }
-
 }
 
 //GitHub
