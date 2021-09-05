@@ -4,6 +4,7 @@ const sGitHub = document.getElementById("github");
 const sTranslate = document.getElementById("translate");
 const sCON = document.getElementById("con");
 const sLeetCode = document.getElementById("leetCode");
+const sStackOverFlow = document.getElementById("stackOverFlow")
 
 
 //isEmpty;
@@ -68,6 +69,12 @@ sGitHub.onclick = function () {
   doAction(p, n, s)
 }
 
+sStackOverFlow.onclick = function () {
+  p = 'https://stackoverflow.com/search?q='
+  n = ''
+  s = 'https://stackoverflow.com/search?q='
+  doAction(p, n, s)
+}
 //translate
 sTranslate.onclick = function () {
   p = 'https://cn.bing.com/dict/search?q='
