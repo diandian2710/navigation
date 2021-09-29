@@ -1,1 +1,2 @@
 # navigation
+## simple navigation page

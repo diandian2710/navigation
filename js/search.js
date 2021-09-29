@@ -85,9 +85,9 @@ sTranslate.onclick = function () {
 
 //CON
 sCON.onclick = function () {
-  p = 'https://rezdycom.atlassian.net/jira/software/projects/CON/boards/24/backlog?selectedIssue=CON-'
+  p = 'https://rezdycom.atlassian.net/browse/CON-'
   n = ''
-  s = 'https://rezdycom.atlassian.net/jira/software/projects/CON/boards/24'
+  s = 'https://rezdycom.atlassian.net/browse'
   doAction(p, n, s)
 }
 
